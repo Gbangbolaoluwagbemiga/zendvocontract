@@ -11,4 +11,11 @@ pub enum Error {
     GiftNotFound = 5,
     InvalidStatus = 6,
     InvalidProof = 7,
+    OracleUnavailable = 5,
+    StaleOracleData = 6,
+    InvalidExchangeRate = 7,
+    SlippageExceeded = 8,
+    InvalidSlippageConfig = 9,
+    OraclePaused = 10,
+    InsufficientLiquidity = 11,
 }
